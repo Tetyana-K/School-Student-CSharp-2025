@@ -2,7 +2,9 @@
 
 namespace Demo__IDisposable
 {
-    class DBConnection
+    // managed resources - managed by CLR (part of .NET)
+    // unmanaged resource - некеровані ресурси (зєднання з базами даних, графічні ресурси, файлові дескриптори)
+    class DBConnection : IDisposable
     {
         private string nameDb;
         private bool isOpen;
@@ -26,6 +28,7 @@ namespace Demo__IDisposable
         public void Work()
         {
             Console.WriteLine("We got all records from table....");
+            //throw new Exception ("Smth happened");
         }
         public void Dispose() // 
         {
@@ -47,12 +50,23 @@ namespace Demo__IDisposable
         static void Main(string[] args)
         {
 
-            DBConnection db = new DBConnection();
-            db.Open("aa.mdf");
-            db.Work();
+            //DBConnection db = new DBConnection();
+            //db.Open("aa.mdf");
+            //db.Work();
+
+            //db.Dispose();
+
+            using (DBConnection db = new DBConnection())
+            {
+                db.Open("aa.mdf");
+                db.Work();
+
+                //db.Dispose(); --- неявно спрацює при закритті блоку
+            }
 
             GC.Collect(0);
             System.Threading.Thread.Sleep(3000);
+
         }
     }
 }

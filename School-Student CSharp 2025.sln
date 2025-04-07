@@ -71,9 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic class", "Generic cl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Garbage Collector", "Garbage Collector", "{53320BC8-558B-4B88-B349-7C2E53DCAB44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC demo", "GC demo\GC demo.csproj", "{A61032EA-3EEE-4445-B599-F7D2871BC43F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GC demo", "GC demo\GC demo.csproj", "{A61032EA-3EEE-4445-B599-F7D2871BC43F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Disposable", "02 Disposable\02 Disposable.csproj", "{5E726746-4653-42A2-BA23-01578016C01F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Disposable", "02 Disposable\02 Disposable.csproj", "{5E726746-4653-42A2-BA23-01578016C01F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Disposable (net framework)", "02 Disposable (net framework)\02 Disposable (net framework).csproj", "{030328EF-0D39-4A3B-82EB-41CC41BEE1E6}"
 EndProject
@@ -81,11 +81,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Disposable", "03 Disposa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Std collections", "Std collections", "{CCE004D3-7FAF-4595-82CA-54743510D1FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedList demo", "SortedList demo\SortedList demo.csproj", "{E2C549A2-992C-4FA1-9211-30BFC6C7C357}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedList demo", "SortedList demo\SortedList demo.csproj", "{E2C549A2-992C-4FA1-9211-30BFC6C7C357}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary and SortedDictionary", "Dictionary and SortedDictionary\Dictionary and SortedDictionary.csproj", "{1C005168-F71A-4CB0-8A54-006037309EB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary and SortedDictionary", "Dictionary and SortedDictionary\Dictionary and SortedDictionary.csproj", "{1C005168-F71A-4CB0-8A54-006037309EB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList and List", "ArrayList and List\ArrayList and List.csproj", "{B5D26E99-4C94-477E-8FA4-D1FBCFA12BF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayList and List", "ArrayList and List\ArrayList and List.csproj", "{B5D26E99-4C94-477E-8FA4-D1FBCFA12BF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamWriter Reader", "StreamWriter Reader\StreamWriter Reader.csproj", "{4C0C147E-E3C1-44E3-B3E2-9FB3CDB4753D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{BD6E73FE-CCDC-45E7-905D-AAC148103DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryWriter- Reader", "BinaryWriter- Reader\BinaryWriter- Reader.csproj", "{628FA257-D40F-4F62-BE5E-55076BD8D720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class File and FileInfo", "class File and FileInfo\class File and FileInfo.csproj", "{ADFF44D7-D57B-4442-A984-07104922B4D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory DirectortoryInfo", "Directory DirectortoryInfo\Directory DirectortoryInfo.csproj", "{09DA1663-1D4D-4B1C-82E9-0D3DE4897682}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -233,6 +243,22 @@ Global
 		{B5D26E99-4C94-477E-8FA4-D1FBCFA12BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5D26E99-4C94-477E-8FA4-D1FBCFA12BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5D26E99-4C94-477E-8FA4-D1FBCFA12BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0C147E-E3C1-44E3-B3E2-9FB3CDB4753D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0C147E-E3C1-44E3-B3E2-9FB3CDB4753D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0C147E-E3C1-44E3-B3E2-9FB3CDB4753D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0C147E-E3C1-44E3-B3E2-9FB3CDB4753D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628FA257-D40F-4F62-BE5E-55076BD8D720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628FA257-D40F-4F62-BE5E-55076BD8D720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628FA257-D40F-4F62-BE5E-55076BD8D720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628FA257-D40F-4F62-BE5E-55076BD8D720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFF44D7-D57B-4442-A984-07104922B4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFF44D7-D57B-4442-A984-07104922B4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFF44D7-D57B-4442-A984-07104922B4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFF44D7-D57B-4442-A984-07104922B4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DA1663-1D4D-4B1C-82E9-0D3DE4897682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DA1663-1D4D-4B1C-82E9-0D3DE4897682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DA1663-1D4D-4B1C-82E9-0D3DE4897682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DA1663-1D4D-4B1C-82E9-0D3DE4897682}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -271,6 +297,8 @@ Global
 		{E2C549A2-992C-4FA1-9211-30BFC6C7C357} = {CCE004D3-7FAF-4595-82CA-54743510D1FC}
 		{1C005168-F71A-4CB0-8A54-006037309EB1} = {CCE004D3-7FAF-4595-82CA-54743510D1FC}
 		{B5D26E99-4C94-477E-8FA4-D1FBCFA12BF3} = {CCE004D3-7FAF-4595-82CA-54743510D1FC}
+		{4C0C147E-E3C1-44E3-B3E2-9FB3CDB4753D} = {BD6E73FE-CCDC-45E7-905D-AAC148103DEE}
+		{628FA257-D40F-4F62-BE5E-55076BD8D720} = {BD6E73FE-CCDC-45E7-905D-AAC148103DEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8ED92E0-CA19-4210-9B2B-A3FF7C36BAA7}

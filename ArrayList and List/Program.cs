@@ -7,6 +7,13 @@ namespace _01_Collections
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = System.Text.Encoding.Unicode;
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.WriteLine("ВВедІть");
+
+            string str = Console.ReadLine();
+            Console.WriteLine(str);
+
             List<int> li = new List<int>()
             {
                 10, 12, 100, 33, -23

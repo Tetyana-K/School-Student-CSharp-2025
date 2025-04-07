@@ -5,15 +5,15 @@ using System.IO;
 
 namespace Demo__IDisposable
 {
-    // керований ресурс -  ним керує CLR
-    // некерований ресурс(зєднання з  БД, файлові дескриптори, зєднання по  мережі, графічні ресурси) - за звільнення CLR не відповідає 
-    // Клас, який оперуэ сирим некерованим ресурсом повинен реалізувати IDisposable  
+    // керований ресурс -  ним керує CLR (масиви, рядки, те що, створюється у дин памяті, тобто на HEAP)
+    // некерований ресурс(зєднання з  БД, файлові дескриптори, зєднання по  мережі, графічні ресурси) - за звільнення таких ресурсів CLR не відповідає, потрібно самим закривати 
+    // Клас, який оперує сирим некерованим ресурсом повинен реалізувати IDisposable, тобто метод Dispose(), який закриэ некеровані ресурси, якими користується клас  
     class DBConnection : IDisposable
     {
         private string nameDb;
-        private bool isOpen;
-        bool isDisposed = false;
-        FileStream fs = new FileStream("my.dat", FileMode.OpenOrCreate);
+        private bool isOpen; // наша імітація некерованого ресурсу
+        bool isDisposed = false; // прапорець для перевірки чи звільнівся ресурс
+        FileStream fs = new FileStream("my.dat", FileMode.OpenOrCreate); //  стандарний клас- обгортка над некерованим ресурсом 
         public DBConnection()
         {
             /*Console.*/

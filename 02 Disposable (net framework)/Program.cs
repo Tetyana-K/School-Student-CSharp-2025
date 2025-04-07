@@ -51,7 +51,7 @@ namespace Demo__IDisposable
             db.Open("aa.mdf");
             db.Work();
 
-            GC.Collect(0);
+            //GC.Collect(0);
             System.Threading.Thread.Sleep(3000);
         }
     }
