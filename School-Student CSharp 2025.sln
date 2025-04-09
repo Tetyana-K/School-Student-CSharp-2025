@@ -91,15 +91,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamWriter Reader", "Stre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{BD6E73FE-CCDC-45E7-905D-AAC148103DEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryWriter- Reader", "BinaryWriter- Reader\BinaryWriter- Reader.csproj", "{628FA257-D40F-4F62-BE5E-55076BD8D720}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryWriter- Reader", "BinaryWriter- Reader\BinaryWriter- Reader.csproj", "{628FA257-D40F-4F62-BE5E-55076BD8D720}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class File and FileInfo", "class File and FileInfo\class File and FileInfo.csproj", "{ADFF44D7-D57B-4442-A984-07104922B4D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "class File and FileInfo", "class File and FileInfo\class File and FileInfo.csproj", "{ADFF44D7-D57B-4442-A984-07104922B4D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory DirectortoryInfo", "Directory DirectortoryInfo\Directory DirectortoryInfo.csproj", "{09DA1663-1D4D-4B1C-82E9-0D3DE4897682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory DirectortoryInfo", "Directory DirectortoryInfo\Directory DirectortoryInfo.csproj", "{09DA1663-1D4D-4B1C-82E9-0D3DE4897682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization demo", "Serialization demo\Serialization demo.csproj", "{174B67AF-9C0D-4CB1-8814-1210DB79D588}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization demo", "Serialization demo\Serialization demo.csproj", "{174B67AF-9C0D-4CB1-8814-1210DB79D588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regex demo", "Regex demo\Regex demo.csproj", "{164C432D-4185-4616-9D35-485AB590B608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regex demo", "Regex demo\Regex demo.csproj", "{164C432D-4185-4616-9D35-485AB590B608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq to objects", "Linq to objects\Linq to objects.csproj", "{02EEA4A1-301E-4067-A700-4F52F47EB916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,6 +273,10 @@ Global
 		{164C432D-4185-4616-9D35-485AB590B608}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{164C432D-4185-4616-9D35-485AB590B608}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{164C432D-4185-4616-9D35-485AB590B608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EEA4A1-301E-4067-A700-4F52F47EB916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EEA4A1-301E-4067-A700-4F52F47EB916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EEA4A1-301E-4067-A700-4F52F47EB916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EEA4A1-301E-4067-A700-4F52F47EB916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
